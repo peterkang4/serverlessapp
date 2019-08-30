@@ -1,0 +1,21 @@
+org: peterkang1
+app: stelligentapp-app
+service: stelligentapp
+
+plugins: 
+  - serverless-offline
+  - serverless-mocha-plugin
+
+provider:
+  name: aws
+  runtime: nodejs10.x
+  stage: dev
+  region: us-east-1
+
+functions:
+  hello:
+    handler: src/handler.hello
+    events:
+      - http:
+          path: get
+          method: get
