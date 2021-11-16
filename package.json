@@ -4,7 +4,7 @@
   "description": "stelligentapp_v1",
   "main": "handler.js",
   "dependencies": {
-    "aws-sdk": "^2.510.0",
+    "aws-sdk": "^2.814.0",
     "nodejs": "0.0.0",
     "serverless": "^1.50.0"
   },
