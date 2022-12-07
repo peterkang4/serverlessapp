@@ -6,7 +6,7 @@
   "dependencies": {
     "aws-sdk": "^2.510.0",
     "nodejs": "0.0.0",
-    "serverless": "^1.50.0"
+    "serverless": "^3.25.1"
   },
   "devDependencies": {
     "eslint": "^6.1.0",
